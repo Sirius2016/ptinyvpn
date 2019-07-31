@@ -1,11 +1,11 @@
 Accelerate SSH connection speed and upload and download files through Ptinyvpn.
 
 #server start:  
-./tinyvpn -s -l0.0.0.0:4096 -f20:10 -k "passwd" --sub-net 10.22.22.0 --tun-dev tun100 --report 10
+./ptinyvpn -s -l0.0.0.0:4096 -f20:10 -k "passwd" --sub-net 10.22.22.0 --tun-dev tun100 --report 10
 
 
 #client start:  
-./tinyvpn -c -r44.55.66.77:4096 -f20:10 -k "passwd" --sub-net 10.22.22.0 --tun-dev tun100 --report 10
+./ptinyvpn -c -r44.55.66.77:4096 -f20:10 -k "passwd" --sub-net 10.22.22.0 --tun-dev tun100 --report 10
 
 
 #Server:Test client Ping values  
