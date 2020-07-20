@@ -20,3 +20,6 @@ scp -r /root/scripts/udp2/psocks5 root@10.22.22.2:/root
 
 #client SSH transfer files  
 scp -r /root/scripts/udp2/psocks5 root@10.22.22.1:/root
+
+#
+
