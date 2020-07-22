@@ -4,7 +4,7 @@ Accelerate SSH connection speed and upload and download files through Ptinyvpn.
 ./ptinyvpn -s -l0.0.0.0:8096 -f20:10 -k "603aM8l1uStJ2Aj" --sub-net 10.22.22.0 --tun-dev tun100 --report 10 --mode 1
 
 #client start:  
-./ptinyvpn -c -r107.172.188.121:8096 -f20:10 -k "603aM8l1uStJ2Aj" --sub-net 10.22.22.0 --tun-dev tun100 --report 10 --mode 1 --keep-reconnect
+./ptinyvpn -c -r44.55.66.77:8096 -f20:10 -k "603aM8l1uStJ2Aj" --sub-net 10.22.22.0 --tun-dev tun100 --report 10 --mode 1 --keep-reconnect
 
 
 #Server:Test client Ping values  
